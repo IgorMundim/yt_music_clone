@@ -1,0 +1,22 @@
+.container {
+    padding: 12px 0;
+    height: 65px;
+    width: 56px;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    align-self: center;
+    text-align: center;
+}
+.text {
+    font-size: 10px;
+}
+.container:hover{
+    background: #353535;
+}
+.active {
+    background: #1d1d1d;
+}
+.active:hover {
+    background: #1d1d1d;
+}

@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    padding: 0 20px;
+    height: 48px;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.text{
+    margin-left:20px;
+}
+.container:hover{
+    background: #353535;
+}
+.active {
+    background: #1d1d1d;
+}
+.active:hover {
+    background: #1d1d1d;
+}

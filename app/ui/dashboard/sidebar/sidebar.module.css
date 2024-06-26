@@ -1,0 +1,28 @@
+
+.menu {
+    height: 64px;
+    padding: 0 0 0 16px;
+    display: flex;
+}
+.menuOpen{
+    align-self: center;
+    cursor: pointer;
+}
+.list{
+    padding: 8px 8px 0 8px;
+}
+
+.title{
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+.divider {
+    border: 0.3px solid rgba(255,255,255,.15);
+    margin: 24px auto;
+    width: 192px;
+}
+.button{
+    margin: 24px auto;
+    width: 200px;
+}
