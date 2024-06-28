@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.title{
+    font-size: 41px;
+    font-weight: 700;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 16px
+}
+.nextPrevious{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 36px;
+    height: 36px; 
+    background-color: #090a0a;
+    border: 1px solid #3a3c3c;
+    border-radius: 80px;
+    
+}
+.nextPrevious:hover{
+    background-color: #222322;
+}

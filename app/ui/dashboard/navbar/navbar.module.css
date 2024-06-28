@@ -1,0 +1,25 @@
+.container {
+    margin: 10px 110px 10px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.input {
+    width: 480px;
+    height: 42px;
+    padding-left: 56px;
+    background-color: #2d3c43;
+    border: 1px solid #51555b;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

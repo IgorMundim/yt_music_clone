@@ -2,17 +2,33 @@
     display: flex;
 }
 .sidebarMedium {
-    flex: 1;
+    width: 148px;
     min-height: 100vh;
+    background: linear-gradient(#071b22, #061318, #070607, #010101, #020202, #030303 );   
 }
 .sidebarLarge {
-    flex: 1;
+    width: 240px;
     min-height: 100vh;
     border-right: 1px solid rgba(255,255,255,.15);
 }
 .navbarMedium{
-  flex: 4.319;     
+  flex: 4.319;   
+   background: linear-gradient(#071b22, #061318, #070607, #010101, #020202, #030303 );   
+ 
 }
 .navbarLarge{
    flex: 6.3;
+   background: linear-gradient(#071b22, #061318, #070607, #010101, #020202, #030303 );   
+}
+
+.wrapper {
+    margin: 48px 113px 10px 99px;
+}
+
+.category{
+    display: flex;
+}
+
+.carousel {
+    padding-top: 40px;
 }
