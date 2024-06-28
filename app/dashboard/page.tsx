@@ -16,7 +16,7 @@ const data = [
     {text: "Pora dormir"},
 ]
 const Dashboard = () => {
-   
+
   
     return (
         <div className={styles.wrapper}>
@@ -26,7 +26,7 @@ const Dashboard = () => {
                 ))}
             </div>
             <div className={styles.carousel}>
-                <Carousel />
+                <Carousel  title='Videoclipes recomendados'/>
             </div>
         </div>
     )

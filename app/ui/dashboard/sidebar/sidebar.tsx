@@ -18,21 +18,25 @@ import MenuLinkSmall from "./menuLinkSmall/menuLinkSmall";
   
 const menuItems = [
     {
+        id: 1,
         title: "Início",
         path: "/dashboard",
         icon: <HomeIcon  style={{ fontSize: 24, color: 'white', alignSelf: 'center'}} />
     },
     {
+        id: 2,
         title: "Explorar",
         path: "",
         icon: <ExploreIcon  style={{ fontSize: 24, color: 'white', alignSelf: 'center'}} />
     },
     {
+        id: 3,
         title: "Biblioteca",
         path: "",
         icon: <LibraryMusicIcon  style={{ fontSize: 24, color: 'white', alignSelf: 'center'}} />
     },
     {
+        id: 4,
         title: "Upgrade",
         path: "",
         icon: <PlayIcon style={{ fontSize: 24, color: 'white', alignSelf: 'center'}} />
@@ -63,10 +67,10 @@ const Sidebar = () => {
             </div>
 
             <ul className={styles.list}>
-                {page.openMenu ? menuItems.map((item: {title: string; path: string; icon: JSX.Element;}) => (
-                     <MenuLink item={item} />
-                )) : menuItems.map((item: {title: string; path: string; icon: JSX.Element;}) => (
-                    <MenuLinkSmall item={item} />
+                {page.openMenu ? menuItems.map((item: {title: string; path: string; icon: JSX.Element;}, key) => (
+                     <MenuLink item={item} key={key}/>
+                )) : menuItems.map((item: {title: string; path: string; icon: JSX.Element;}, key) => (
+                    <MenuLinkSmall item={item} key={key}/>
                ))}
             </ul>
 

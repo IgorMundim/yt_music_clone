@@ -1,4 +1,4 @@
-.container{
+.wrapper{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -23,8 +23,31 @@
     background-color: #090a0a;
     border: 1px solid #3a3c3c;
     border-radius: 80px;
-    
+    cursor: pointer;
 }
 .nextPrevious:hover{
     background-color: #222322;
+}
+
+
+
+.container {
+  max-width: 75vw;
+}
+.container .carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.container .carousel::-webkit-scrollbar {
+  display: none;
+} 
+
+.slide{
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    background-color: red;
+    flex: none;
 }
